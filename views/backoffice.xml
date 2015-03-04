@@ -1,0 +1,69 @@
+<openerp><data>
+<template id="remove_bo_powered_by" inherit_id="web.menu_secondary">
+	<xpath expr="//div[@class='oe_footer']" position="replace">
+		<div class="oe_footer">
+			Powered by <a href="http://www.qtbconcepts.com" target="_blank"><span>QTB Concepts</span></a>
+		</div>
+	</xpath>
+</template>
+
+<template id="assets_backend" name="qtb_assets" inherit_id="web.assets_backend">
+    <xpath expr="." position="inside">
+        <script type="text/javascript" src="/qtb_admin/static/src/js/announcement_bar.js"/>
+        <link rel="stylesheet" href="/qtb_admin/static/src/css/backoffice.css"/>
+        <link rel="stylesheet" href="/qtb_admin/static/src/css/backend-base.css" t-ignore="true"/>
+        <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700,900%7COpen+Sans:400,300,700,800%7CMontserrat:400,700' rel='stylesheet' type='text/css' t-ignore="true"/>
+    </xpath>
+</template>
+
+<template id="change_title" inherit_id="web.layout" name="QTB Web layout">
+ 	<xpath expr="//title" position="replace">
+ 		<meta name="viewport" content="initial-scale=1"/>
+	    <title>QTB Concepts</title>
+    </xpath>
+    <xpath expr="//link[@type='image/x-icon']" position="replace">
+	    <link rel="shortcut icon" href="/qtb_admin/static/src/img/favicon.ico" type="image/x-icon"/>
+    </xpath>
+</template>
+
+<template id="change_bo_secondary_menu" inherit_id="web.webclient_bootstrap" name="QTB BO Layout">
+	<xpath expr="//div[@class='openerp openerp_webclient_container']" position="replace">
+		<div class="openerp site-wrapper">
+            <div class="site-canvas">
+                <div class="site-menu">
+                    <div class="oe_leftbar" valign="top">
+                        <div groups="base.group_user,base.group_portal">
+                            <t t-call="web.menu_secondary"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="oe_application">
+                </div>
+            </div>
+        </div>
+	</xpath>
+	<xpath expr="//button[@class='navbar-toggle']" position="before">
+		<div id="inner_menu_toggle" style="display: block;">
+			<a href="#" class="toggle-nav" id="big-sexy"><span>MENU </span><i class="fa fa-sign-out fa-3"></i></a>
+			<!--  <a class="oe_menu_toggler" data-menu="68" href="">
+				<span class="oe_menu_text">Toggle Nav</span>
+		    </a>-->
+		
+		</div>
+	</xpath>
+</template>
+
+<!--  <template id="secondary_menu_toggle" inherit_id="web.menu">
+	<xpath expr="//ul[@class='nav navbar-nav navbar-left oe_application_menu_placeholder']" position="inside">
+		<li style="display: block;">
+			<a href="#" class="toggle-nav" id="big-sexy"><i class="fa fa-bars"></i> Toggle Nav</a>
+			  <a class="oe_menu_toggler" data-menu="68" href="">
+				<span class="oe_menu_text">Toggle Nav</span>
+		    </a>
+		
+		</li>
+	</xpath>
+</template>-->
+
+
+</data></openerp>

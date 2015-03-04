@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates xml:space="preserve">
+	<t t-name="UserMenu" t-extends="UserMenu">
+		<li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                <img class="oe_topbar_avatar" t-att-data-default-src="_s + '/web/static/src/img/user_menu_avatar.png'"/>
+                <span class="oe_topbar_name"/> <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu">
+                <li><a href="#" data-menu="settings">Preferences</a></li>
+                <!--<li><a href="#" data-menu="account">My Odoo.com account</a></li>-->
+                <li><a href="#" data-menu="about">About</a></li>
+                <li><a href="#" data-menu="help">Help</a></li>
+                <!-- The Support Menu Item comes from Module: im_odoo_support - Uninstall the module to remove this item-->
+                <li><a href="#" data-menu="logout">Log out</a></li>
+            </ul>
+        </li>
+	</t>
+	<t t-name="UserMenu.about" t-extends="UserMenu.about">
+
+	    <div class="oe_about">
+	
+	        <div class="container-fluid">
+	            <div class="row">
+	                <a class="oe_activate_debug_mode oe_right label label-primary" href="?debug" >Activate the developer mode</a>
+	            </div>
+	            <div class="row">
+	                <div class="col-sm-offset-2 col-md-offset-2 col-sm-8 col-md-8 user-details">
+	                    <div class="user-image">
+	                        <img src="/new_vantage_backend/static/src/img/logo.png" alt="NEw Vantage ERP" title="QTB Concepts ERP" class=""/>
+	                    </div>
+	                    <div class="user-info-block">
+	                        <div class="user-heading">
+	                            <br/><span class="help-block">Based on Open Source Software</span>
+	                            <h3>Version <t t-esc="version_info.server_version"/></h3>
+	                        </div>
+	
+	                        <ul class="list-inline text-center navigation">
+	                            <li class="active">
+	                                <a data-toggle="tab" href="#settings">
+	                                    <span class="glyphicon glyphicon-cog"></span>
+	                                </a>
+	                            </li>
+	                            <li>
+	                                <a data-toggle="tab" href="#email">
+	                                    <span class="glyphicon glyphicon-envelope"></span>
+	                                </a>
+	                            </li>
+	                            <!--  <li>
+	                                <a data-toggle="tab" href="#events">
+	                                    <span class="glyphicon glyphicon-calendar"></span>
+	                                </a>
+	                            </li>-->
+	                             <li>
+	                                <a data-toggle="tab" href="#social">
+	                                    <span class="glyphicon glyphicon-share"></span>
+	                                </a>
+	                            </li>
+	                        </ul>
+	                        <div class="user-body">
+	                            <div class="tab-content">
+	                                <div id="settings" class="tab-pane active">
+	                                    <h4>Copyright © 2004-TODAY QTB Concepts. All Rights Reserved.</h4>
+	                                    <p>QTB Concepts makes use of Open Source Software and unequivocally adheres to their respective licenses.</p>
+	                                    <p>All copyright and trademarks are maintained by their owners.</p>
+	                                    <p>For more information visit <a target="_blank" href="http://www.qtbconcepts.com" style="text-decoration: underline;">qtbconcepts.com/contact.html</a></p>
+	                                </div>
+	                                <div id="email" class="tab-pane">
+	                                    <h4>QTB Concepts</h4>
+	                                    <p>
+	                                        The Hamlet<br/>
+	                                        Ruth Ave<br/>
+	                                        JHB<br/>
+	                                        South Africa
+	                                    </p>
+	                                    <!-- TODO - ALIAS contactus -->
+	                                    <a class='btn btn-link' href='https://www.qtbconcepts.com'>Our website</a>
+	                                </div>
+	                                <!--  <div id="events" class="tab-pane">
+	                                    <h4>Discover Events of Odoo around the world...</h4>
+	                                    <a class='btn btn-link' href='https://www.odoo.com/web/about/event'> Our next Events</a>
+	                                </div>-->
+	                                <div id="social" class="tab-pane">
+	                                    <h4>Follow Us...</h4>
+	                                    <a href="https://www.facebook.com"><i class="fa fa-facebook-square fa-3x social-fb"></i></a>
+	                                    <a href="https://www.twitter.com"><i class="fa fa-twitter-square fa-3x social-tw"></i></a>
+	                                    <a href="https://plus.google.com"><i class="fa fa-google-plus-square fa-3x social-gp"></i></a>
+	                                    <a href="https://www.linkedin.com"><i class="fa fa-linkedin-square fa-3x social-lk"></i></a>
+	                                </div>
+	                            </div>
+	                        </div>
+	                    </div>
+	                </div>
+	            </div>
+	        </div>
+	    </div>
+	</t>
+</templates>

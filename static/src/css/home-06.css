@@ -1,0 +1,23 @@
+
+.home-06-container h1 > span{
+    font-size: 15px;
+    line-height: 25px;
+    font-family:  "Raleway", sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    padding: 4px;
+	color:#000;
+
+
+}
+
+.home-06-right-background{
+
+    background: url('../img/base/qtb_branding.jpg') no-repeat center center; 
+    background-size: cover;
+
+}
+.color-bg{
+    background-color: #00aeef;
+}

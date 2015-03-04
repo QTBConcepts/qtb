@@ -1,0 +1,297 @@
+
+/*INNER PARALLAX SECTIONS (Except Intro Parallax)*/
+
+.no-parallax{
+	background-attachment: scroll !important;
+}
+
+.testimonial{
+	position: relative;
+    overflow: hidden;
+    background-position: 50% 0;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+	background: url('../img/bg/bg-animate.png') #ccc repeat;
+    background-position: 0 0;
+    -webkit-animation: patternEf 80s alternate infinite;
+    -moz-animation: patternEf 80s alternate infinite;
+    animation: patternEf 80s alternate infinite;
+}
+
+@-webkit-keyframes patternEf {
+    0%{background-position: 0 0;}
+    50%{background-position: -100% 0;}
+    100%{background-position: 100% 0;}
+}
+@-moz-keyframes patternEf {
+    0%{background-position: 0 0;}
+    50%{background-position: -100% 0;}
+    100%{background-position: 100% 0;}
+}
+@keyframes patternEf {
+    0%{background-position: 0 0;}
+    50%{background-position: -100% 0;}
+    100%{background-position: 100% 0;}
+}
+
+.about-head{
+	position: relative;
+    overflow: hidden;
+    background-position: 50% 0;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+	background: url('../img/bg/bg-animate.png') #ccc repeat;
+    background-position: 0 0;
+    -webkit-animation: patternEf 80s alternate infinite;
+    -moz-animation: patternEf 80s alternate infinite;
+    animation: patternEf 80s alternate infinite;
+}
+
+@-webkit-keyframes patternEf {
+    0%{background-position: 0 0;}
+    50%{background-position: -100% 0;}
+    100%{background-position: 100% 0;}
+}
+@-moz-keyframes patternEf {
+    0%{background-position: 0 0;}
+    50%{background-position: -100% 0;}
+    100%{background-position: 100% 0;}
+}
+@keyframes patternEf {
+    0%{background-position: 0 0;}
+    50%{background-position: -100% 0;}
+    100%{background-position: 100% 0;}
+}
+
+.works1-head{
+	position: relative;
+    overflow: hidden;
+    background-position: 50% 0;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+	background: url('../img/bg/bg-animate.png') #ccc repeat;
+    background-position: 0 0;
+    -webkit-animation: patternEf 80s alternate infinite;
+    -moz-animation: patternEf 80s alternate infinite;
+    animation: patternEf 80s alternate infinite;
+}
+
+@-webkit-keyframes patternEf {
+    0%{background-position: 0 0;}
+    50%{background-position: -100% 0;}
+    100%{background-position: 100% 0;}
+}
+@-moz-keyframes patternEf {
+    0%{background-position: 0 0;}
+    50%{background-position: -100% 0;}
+    100%{background-position: 100% 0;}
+}
+@keyframes patternEf {
+    0%{background-position: 0 0;}
+    50%{background-position: -100% 0;}
+    100%{background-position: 100% 0;}
+}
+
+.works2-head{
+	position: relative;
+    overflow: hidden;
+    background-position: 50% 0;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+	background: url('../img/bg/bg-animate.png') #ccc repeat;
+    background-position: 0 0;
+    -webkit-animation: patternEf 80s alternate infinite;
+    -moz-animation: patternEf 80s alternate infinite;
+    animation: patternEf 80s alternate infinite;
+}
+
+@-webkit-keyframes patternEf {
+    0%{background-position: 0 0;}
+    50%{background-position: -100% 0;}
+    100%{background-position: 100% 0;}
+}
+@-moz-keyframes patternEf {
+    0%{background-position: 0 0;}
+    50%{background-position: -100% 0;}
+    100%{background-position: 100% 0;}
+}
+@keyframes patternEf {
+    0%{background-position: 0 0;}
+    50%{background-position: -100% 0;}
+    100%{background-position: 100% 0;}
+}
+
+.news-head{
+	position: relative;
+    overflow: hidden;
+    background-position: 50% 0;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+	background: url('../img/bg/bg-animate.png') #ccc repeat;
+    background-position: 0 0;
+    -webkit-animation: patternEf 80s alternate infinite;
+    -moz-animation: patternEf 80s alternate infinite;
+    animation: patternEf 80s alternate infinite;
+}
+
+@-webkit-keyframes patternEf {
+    0%{background-position: 0 0;}
+    50%{background-position: -100% 0;}
+    100%{background-position: 100% 0;}
+}
+@-moz-keyframes patternEf {
+    0%{background-position: 0 0;}
+    50%{background-position: -100% 0;}
+    100%{background-position: 100% 0;}
+}
+@keyframes patternEf {
+    0%{background-position: 0 0;}
+    50%{background-position: -100% 0;}
+    100%{background-position: 100% 0;}
+}
+
+.credits-head{
+	position: relative;
+    overflow: hidden;
+    background-position: 50% 0;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+	background: url('../img/bg/bg-animate.png') #ccc repeat;
+    background-position: 0 0;
+    -webkit-animation: patternEf 80s alternate infinite;
+    -moz-animation: patternEf 80s alternate infinite;
+    animation: patternEf 80s alternate infinite;
+}
+
+@-webkit-keyframes patternEf {
+    0%{background-position: 0 0;}
+    50%{background-position: -100% 0;}
+    100%{background-position: 100% 0;}
+}
+@-moz-keyframes patternEf {
+    0%{background-position: 0 0;}
+    50%{background-position: -100% 0;}
+    100%{background-position: 100% 0;}
+}
+@keyframes patternEf {
+    0%{background-position: 0 0;}
+    50%{background-position: -100% 0;}
+    100%{background-position: 100% 0;}
+}
+
+.clients-head{
+	position: relative;
+    overflow: hidden;
+    background-position: 50% 0;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+	background: url('../img/bg/bg-animate.png') #ccc repeat;
+    background-position: 0 0;
+    -webkit-animation: patternEf 80s alternate infinite;
+    -moz-animation: patternEf 80s alternate infinite;
+    animation: patternEf 80s alternate infinite;
+}
+
+@-webkit-keyframes patternEf {
+    0%{background-position: 0 0;}
+    50%{background-position: -100% 0;}
+    100%{background-position: 100% 0;}
+}
+@-moz-keyframes patternEf {
+    0%{background-position: 0 0;}
+    50%{background-position: -100% 0;}
+    100%{background-position: 100% 0;}
+}
+@keyframes patternEf {
+    0%{background-position: 0 0;}
+    50%{background-position: -100% 0;}
+    100%{background-position: 100% 0;}
+}
+
+.awards-head{
+	position: relative;
+    overflow: hidden;
+    background-position: 50% 0;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+	background: url('../img/bg/bg-animate.png') #ccc repeat;
+    background-position: 0 0;
+    -webkit-animation: patternEf 80s alternate infinite;
+    -moz-animation: patternEf 80s alternate infinite;
+    animation: patternEf 80s alternate infinite;
+}
+
+@-webkit-keyframes patternEf {
+    0%{background-position: 0 0;}
+    50%{background-position: -100% 0;}
+    100%{background-position: 100% 0;}
+}
+@-moz-keyframes patternEf {
+    0%{background-position: 0 0;}
+    50%{background-position: -100% 0;}
+    100%{background-position: 100% 0;}
+}
+@keyframes patternEf {
+    0%{background-position: 0 0;}
+    50%{background-position: -100% 0;}
+    100%{background-position: 100% 0;}
+}
+
+.contact-head{
+	position: relative;
+    overflow: hidden;
+    background-position: 50% 0;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+	background: url('../img/bg/bg-animate.png') repeat;
+    background-position: 0 0;
+    -webkit-animation: patternEf 80s alternate infinite;
+    -moz-animation: patternEf 80s alternate infinite;
+    animation: patternEf 80s alternate infinite;
+}
+
+@-webkit-keyframes patternEf {
+    0%{background-position: 0 0;}
+    50%{background-position: -100% 0;}
+    100%{background-position: 100% 0;}
+}
+@-moz-keyframes patternEf {
+    0%{background-position: 0 0;}
+    50%{background-position: -100% 0;}
+    100%{background-position: 100% 0;}
+}
+@keyframes patternEf {
+    0%{background-position: 0 0;}
+    50%{background-position: -100% 0;}
+    100%{background-position: 100% 0;}
+}
+
+
+

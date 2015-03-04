@@ -1,0 +1,36 @@
+
+/*Panels - LEFT Side*/
+.left1{
+    background-image:url("../images/showcase/01.jpg") !important;
+    background-size: cover;
+}
+.left2{
+    background-image:url("../images/showcase/02.jpg") !important;
+    background-size: cover;
+}
+.left3{
+    background-image:url("../images/showcase/03.jpg") !important;
+    background-size: cover;
+}
+.left4{
+    background-image:url("../images/showcase/04.jpg") !important;
+    background-size: cover;
+}
+
+/*Panels - RIGHT Side*/
+.right1{
+    background-image:url("../images/showcase/05.jpg") !important;
+    background-size: cover;
+}
+.right2{
+    background-image:url("../images/showcase/06.jpg") !important;
+    background-size: cover;
+}
+.right3{
+    background-image:url("../images/showcase/07.jpg") !important;
+    background-size: cover;
+}
+.right4{
+    background-image:url("../images/showcase/08.jpg") !important;
+    background-size: cover;
+}
